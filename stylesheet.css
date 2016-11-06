@@ -1,0 +1,151 @@
+* {
+	font-family: 'Raleway', sans-serif;
+}
+html {
+	background-image:
+		linear-gradient(#8CDD81, #BCED91);
+	height: 100vh;
+}
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+	color: #2e2e2e;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 0px;
+}
+
+header h2 {
+	margin-top: 0px;
+	font-size: 1em;
+}
+
+main {
+	height: 70vh;
+	background-image: url(tristan.jpg);
+	background-size: cover;
+	border-top: 10px solid;
+	border-bottom: 10px solid;
+}
+
+footer {
+	display: inline;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navlink {
+	transition-duration: .25s;
+}
+
+.navlink:hover {
+	color: black;
+}
+
+#facebook {
+	fill: #2e2e2e;
+	transition-duration: .25s;
+}
+
+#linkdin {
+	fill: #2e2e2e;
+	transition-duration: .25s;
+}
+
+#facebook:hover {
+	fill: black;
+}
+
+#linkdin:hover {
+	fill: black;
+}
+
+@media screen and (min-width:600px) {
+	.navwrap {
+		width: 400px;
+		float: left;
+		display: flex;
+	}
+
+	.navwrap a {
+		width: 400px;
+	}
+
+	.navlink {
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		width: 300px;
+	}
+
+	.socialmedia {
+		width: 200px;
+		height: 60px;
+		display: inline-flex;
+		justify-content: space-around;
+	}
+
+	#facebook {
+		width: 30px;
+		height: 30px;
+		padding: 15px;
+		float: left;
+
+	}
+	#linkdin {
+		width: 30px;
+		height: 30px;
+		padding: 15px;
+		float: left;
+
+	}
+}
+
+@media screen and (max-width:599px) {
+  .navwrap {
+  	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .navlink {
+		text-align: center;
+		padding: 20px 0px 20px 0px;
+		width: 100%;
+	}
+	main {
+		height: 50vh;
+		background-size: cover;
+
+	}
+	footer{
+		display: block;
+	}
+	.socialmedia {
+		display: flex;
+		flex-direction: row;
+		height: 60px;
+		justify-content: space-around;
+	}
+		#facebook {
+		width: 30px;
+		height: 30px;
+		padding: 15px;
+		float: left;
+	}
+	#linkdin {
+		width: 30px;
+		height: 30px;
+		padding: 15px;
+		float: left;
+
+	}
+}
