@@ -1,24 +1,66 @@
-<!doctype html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	</head>
-	<body>
-		<header>
-			<h1>Tristan M Norton</h1>
-			<h2>Graphic Designer</h2>
-		</header>
-		<main>
-		</main>
-		<footer>
-			<nav>
-				<div class="navwrap">
-					<div class="navlink"><a href="">Bio</a></div>
-					<div class="navlink"><a href="">Work</a></div>
-					<div class="navlink"><a href="">Contact</a></div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="stylesheet.css">
+			<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet"> 
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		</head>
+		<body>
+
+			<header>
+				<div id="mainhead">
+					<h1 class="hometrigger">Tristan M. Norton</h1>
+					<h2 class="hometrigger">Graphic Designer</h2>
 				</div>
-			</nav>
+				<nav>
+					<div class="navlink" id="biolink">Biography</div>
+					<div class="navlink" id="portlink">Portfolio</div>
+					<div class="navlink" id="contactlink">Contact</div>
+				</nav>
+				
+			</header>
+
+			
+			<main id="main">
+				<div class="pages" id="phantom">
+				</div>
+				<div class="pages" id="bio">
+					<div id="biobox">
+						<img src="biopic.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat. Etiam pretium dui vitae ante fermentum, vitae auctor quam tempor. Phasellus sit amet neque at velit rutrum faucibus ut in sem. Donec id blandit tellus, id porta massa. Aliquam erat volutpat. Nullam non quam molestie, scelerisque neque a, gravida eros. Maecenas bibendum vehicula arcu, non mattis quam rhoncus vitae. Sed libero purus, porttitor quis congue ac, pellentesque at nisl. In hac habitasse platea dictumst.</p>
+
+						<p>Mauris euismod dignissim consequat. Suspendisse sit amet vulputate lectus. Suspendisse vehicula, mi vel ornare imperdiet, diam orci molestie elit, vitae rutrum neque quam cursus diam. Aenean tristique fermentum consequat. Maecenas id metus in libero auctor sollicitudin eu a velit. Morbi rutrum sem quis justo bibendum, vitae tristique elit laoreet. Nullam sed vulputate dolor, eu euismod nisl. Sed dapibus, massa ac congue venenatis, erat eros tristique dolor, in efficitur purus augue ut ipsum. Etiam pellentesque nunc in porttitor sollicitudin.</p>
+					</div>
+				</div>
+				<div class="pages" id="portfolio">
+					<div id="portbox">
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+						<div class="portthumb"></div>
+					</div>
+				</div>
+				<div class="pages" id="contact">
+					<div id="formbox">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat.</p>
+						<form id="simpleform">
+								<div><label for="myName">Your name:</label></div>
+								<div><input type="text" name="myName" id="myName"></div>
+								<div><label for="email">Email:</label></div>
+								<div><input type="text" name="email" id="email"></div>
+								<div><label for="description">A brief description of work needed</label></div>
+								<div><textarea name="description" id="description" rows="5" cols="50"></textarea></div>
+								<div><button>Send</button></div>
+						</form>	
+					<div>
+				</div>
+			</main>
+			<footer>
 			<div class="socialmedia">
 									<a href=""><svg version="1.1" class="socmedialink" id="linkdin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -54,6 +96,23 @@
 					</svg></a>
 
 			</div>
-		</footer>
-	</body>
-</html>
+			</footer>
+		<script>
+			$(document).ready(function() {
+				$('.hometrigger').click(function() {
+					$('main').css('margin-left', '0%');
+				});
+				$('#biolink').click(function() {
+					$('main').css('margin-left', '-100%');
+				});
+				$('#portlink').click(function() {
+					$('main').css('margin-left', '-200%');
+				});
+				$('#contactlink').click(function() {
+					$('main').css('margin-left', '-300%');
+				});
+
+			});
+		</script>
+		</body>
+	</html>
