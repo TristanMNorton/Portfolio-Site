@@ -158,8 +158,10 @@ footer {
 }
 
 /* Device Compliance */
-@media (max-width: 600px) {
-
+@media (max-width: 740px) {
+	.page-content {
+		margin: 20px;
+	}
 }
 
 /* Utilities */
