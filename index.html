@@ -1,69 +1,73 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<link rel="stylesheet" type="text/css" href="stylesheet.css">
-			<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet"> 
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		</head>
-		<body>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible", content="IE=edge" />
+	<meta name="viewport", content="width=device-width, initial-scale=1" />
 
-			<header>
-				<div id="mainhead">
-					<h1 class="hometrigger">Tristan M. Norton</h1>
-					<h2 class="hometrigger">Graphic Designer</h2>
-				</div>
-				<nav>
-					<div class="navlink" id="biolink">Biography</div>
-					<div class="navlink" id="portlink">Portfolio</div>
-					<div class="navlink" id="contactlink">Contact</div>
-				</nav>
-				
-			</header>
+	<title>Tristan M. Norton</title>
 
-			
-			<main id="main">
-				<div class="pages" id="phantom">
-				</div>
-				<div class="pages" id="bio">
-					<div id="biobox">
-						<img src="biopic.jpg"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat. Etiam pretium dui vitae ante fermentum, vitae auctor quam tempor. Phasellus sit amet neque at velit rutrum faucibus ut in sem. Donec id blandit tellus, id porta massa. Aliquam erat volutpat. Nullam non quam molestie, scelerisque neque a, gravida eros. Maecenas bibendum vehicula arcu, non mattis quam rhoncus vitae. Sed libero purus, porttitor quis congue ac, pellentesque at nisl. In hac habitasse platea dictumst.</p>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" />
 
-						<p>Mauris euismod dignissim consequat. Suspendisse sit amet vulputate lectus. Suspendisse vehicula, mi vel ornare imperdiet, diam orci molestie elit, vitae rutrum neque quam cursus diam. Aenean tristique fermentum consequat. Maecenas id metus in libero auctor sollicitudin eu a velit. Morbi rutrum sem quis justo bibendum, vitae tristique elit laoreet. Nullam sed vulputate dolor, eu euismod nisl. Sed dapibus, massa ac congue venenatis, erat eros tristique dolor, in efficitur purus augue ut ipsum. Etiam pellentesque nunc in porttitor sollicitudin.</p>
-					</div>
-				</div>
-				<div class="pages" id="portfolio">
-					<div id="portbox">
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-						<div class="portthumb"></div>
-					</div>
-				</div>
-				<div class="pages" id="contact">
-					<div id="formbox">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat.</p>
-						<form id="simpleform">
-								<div><label for="myName">Your name:</label></div>
-								<div><input type="text" name="myName" id="myName"></div>
-								<div><label for="email">Email:</label></div>
-								<div><input type="text" name="email" id="email"></div>
-								<div><label for="description">A brief description of work needed</label></div>
-								<div><textarea name="description" id="description" rows="5" cols="50"></textarea></div>
-								<div><button>Send</button></div>
-						</form>	
-					<div>
-				</div>
-			</main>
-			<footer>
-			<div class="socialmedia">
-									<a href=""><svg version="1.1" class="socmedialink" id="linkdin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<h1 class="hometrigger">Tristan M. Norton</h1>
+			<h2 class="hometrigger">Graphic Designer</h2>
+		</div>
+		<span class="flex"></span>
+		<nav>
+			<div class="navlink" id="biolink">Biography</div>
+			<div class="navlink" id="portlink">Portfolio</div>
+			<div class="navlink" id="contactlink">Contact</div>
+		</nav>
+	</header>
+	<main id="main">
+		<div class="page"></div>
+		<div class="page" id="bio">
+			<div class="page-content">
+				<img src="biopic.jpg" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat. Etiam pretium dui vitae ante fermentum, vitae auctor quam tempor. Phasellus sit amet neque at velit rutrum faucibus ut in sem. Donec id blandit tellus, id porta massa. Aliquam erat volutpat. Nullam non quam molestie, scelerisque neque a, gravida eros. Maecenas bibendum vehicula arcu, non mattis quam rhoncus vitae. Sed libero purus, porttitor quis congue ac, pellentesque at nisl. In hac habitasse platea dictumst.</p>
+				<p>Mauris euismod dignissim consequat. Suspendisse sit amet vulputate lectus. Suspendisse vehicula, mi vel ornare imperdiet, diam orci molestie elit, vitae rutrum neque quam cursus diam. Aenean tristique fermentum consequat. Maecenas id metus in libero auctor sollicitudin eu a velit. Morbi rutrum sem quis justo bibendum, vitae tristique elit laoreet. Nullam sed vulputate dolor, eu euismod nisl. Sed dapibus, massa ac congue venenatis, erat eros tristique dolor, in efficitur purus augue ut ipsum. Etiam pellentesque nunc in porttitor sollicitudin.</p>
+			</div>
+		</div>
+		<div class="page" id="portfolio">
+			<div class="page-content">
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+				<div class="portthumb"></div>
+			</div>
+		</div>
+		<div class="page" id="contact">
+			<div class="page-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel dapibus neque. Vestibulum mattis, ante eget lacinia porta, eros massa faucibus augue, ac maximus felis lectus nec erat.</p>
+				<form id="simpleform">
+					<div><label for="myName">Your name:</label></div>
+					<div><input type="text" name="myName" id="myName"></div>
+					<div><label for="email">Email:</label></div>
+					<div><input type="text" name="email" id="email"></div>
+					<div><label for="description">A brief description of work needed</label></div>
+					<div><textarea name="description" id="description" rows="5" cols="50"></textarea></div>
+					<div><button>Send</button></div>
+				</form>
+			<div>
+		</div>
+	</main>
+	<footer>
+		<div class="socialmedia">
+			<a href="#" class="socmedialink" id="linkdin">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 					<g>
 						<g>
 							<path d="M0.1,47c0-14.6,0-29.2,0-43.8c0.2-0.9,0.6-1.8,1.5-2.4c0.5-0.3,1.1-0.5,1.7-0.8c14.5,0,29.1,0,43.6,0
@@ -75,12 +79,13 @@
 								c0-0.2,0-0.3,0-0.5c0-0.7,0-1.5,0-2.2c0-0.4-0.1-0.4-0.5-0.4c-2.2,0-4.5,0-6.7,0C19.7,19.4,19.6,19.4,19.4,19.4z M7.7,19.4
 								c0,0.2,0,0.3,0,0.5c0,7.2,0,14.4,0,21.6c0,0.4,0.1,0.5,0.5,0.5c2.2,0,4.4,0,6.6,0c0.4,0,0.5-0.1,0.5-0.5c0-7.2,0-14.4,0-21.6
 								c0-0.1,0-0.3,0-0.4C12.7,19.4,10.2,19.4,7.7,19.4z M7.2,12.2c-0.1,1.5,0.8,3,2.1,3.6c1.2,0.6,2.5,0.6,3.8,0.2
-								c2.3-0.8,3.2-3.4,2.1-5.5c-0.7-1.3-1.9-1.9-3.4-2C9.4,8.3,7.4,9.7,7.2,12.2z"/>
+								c2.3-0.8,3.2-3.4,2.1-5.5c-0.7-1.3-1.9-1.9-3.4-2C9.4,8.3,7.4,9.7,7.2,12.2z" />
 						</g>
 					</g>
-					</svg></a>
-					<a href=""><svg version="1.1" id="facebook" class="socmedialink" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+				</svg>
+			</a>
+			<a href="#" class="socmedialink" id="facebook">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 					<g>
 						<g>
 							<path d="M26.8,50.1c-8.1,0-16.3,0-24.4,0C2.2,50,2.1,50,2,49.9c-0.6-0.2-1.1-0.6-1.5-1.2c-0.2-0.3-0.3-0.6-0.4-0.9
@@ -93,26 +98,9 @@
 								c-0.2,0-0.3,0-0.5,0c0,2.6,0,5,0,7.6c2.2,0,4.3,0,6.5,0c0,0.2,0,0.3,0,0.5c0,6.1,0,12.3,0,18.4C26.8,49.8,26.8,49.9,26.8,50.1z"/>
 						</g>
 					</g>
-					</svg></a>
-
-			</div>
-			</footer>
-		<script>
-			$(document).ready(function() {
-				$('.hometrigger').click(function() {
-					$('main').css('margin-left', '0%');
-				});
-				$('#biolink').click(function() {
-					$('main').css('margin-left', '-100%');
-				});
-				$('#portlink').click(function() {
-					$('main').css('margin-left', '-200%');
-				});
-				$('#contactlink').click(function() {
-					$('main').css('margin-left', '-300%');
-				});
-
-			});
-		</script>
-		</body>
-	</html>
+				</svg>
+			</a>
+		</div>
+	</footer>
+</body>
+</html>
