@@ -160,7 +160,7 @@ footer {
 /* Device Compliance */
 @media (max-width: 740px) {
 	.page-content {
-		margin: 20px;
+		margin: 0px;
 	}
 }
 
