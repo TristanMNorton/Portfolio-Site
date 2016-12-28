@@ -80,7 +80,7 @@ nav {
 
 /* Content */
 main {
-	position: absolute;
+	position: relative;
 	width: 400%;
 	top: 80px;
 	bottom: 80px;
