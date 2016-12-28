@@ -161,6 +161,7 @@ footer {
 @media (max-width: 740px) {
 	.page-content {
 		margin: 0px;
+		border-radius: 0px;
 	}
 	
 	h1 {
