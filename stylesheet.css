@@ -168,6 +168,11 @@ footer {
 		font-size: 2em;
 	}
 	
+	main {
+		position: relative;
+		margin-bottom: 0px
+	}
+	
 	footer {
 		position: relative;
 	}
