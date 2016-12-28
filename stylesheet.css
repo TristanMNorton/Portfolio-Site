@@ -162,6 +162,10 @@ footer {
 	.page-content {
 		margin: 0px;
 	}
+	
+	h1 {
+		font-size: 1em;
+	}
 }
 
 /* Utilities */
